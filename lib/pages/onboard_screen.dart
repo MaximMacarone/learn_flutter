@@ -22,7 +22,6 @@ class OnboardScreen extends StatelessWidget {
             ],
           ),
         ),
-      appBar: ,
     );
   }
 }
