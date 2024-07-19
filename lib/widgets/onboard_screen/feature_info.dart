@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:learn_flutter/widgets/onboard_screen/feature_index.dart';
 import 'package:learn_flutter/widgets/onboard_screen/feature_text.dart';
+import 'package:learn_flutter/widgets/onboard_screen/picture.dart';
 
 class FeatureInfo extends StatefulWidget {
   const FeatureInfo({super.key});
@@ -14,16 +16,13 @@ class FeatureInfo extends StatefulWidget {
 class _FeatureInfoState extends State<FeatureInfo> {
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         SizedBox(
           height: 84,
         ),
-        SizedBox(
-          width: 213,
-          height: 278,
-        ),
+        PictureImage(),
         FeatureIndex(),
         SizedBox(
           height: 37,

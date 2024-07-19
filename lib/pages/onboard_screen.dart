@@ -11,6 +11,7 @@ class OnboardScreen extends StatelessWidget {
     return const Scaffold(
         body: Padding(
           padding: EdgeInsets.all(32),
+
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -25,3 +26,8 @@ class OnboardScreen extends StatelessWidget {
     );
   }
 }
+
+
+/*
+
+ */
